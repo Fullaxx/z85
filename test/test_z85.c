@@ -1,3 +1,10 @@
+/*
+Test cases for z85 C code written by Brett Kuskie <fullaxx@gmail.com>
+Any code written here may be used under the same LICENSE as the original author's repository
+Stanislav Artemkin
+https://github.com/artemkin/z85/blob/master/LICENSE
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -1,5 +1,7 @@
 # Object files
 *.o
+*.exe
+*.dbg
 
 # Libraries
 *.lib
@@ -18,3 +20,4 @@
 
 _build
 
+*~
