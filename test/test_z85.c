@@ -19,7 +19,7 @@ int run_test(char *testdata, size_t size)
 	size_t bufsize, encbytes, decbytes;
 
 	error = 0;
-	bufsize = (size+3)*2;
+	bufsize = (size+3)*2;	//For small values, we over-buffer
 	enc = malloc(bufsize);
 	dec = malloc(bufsize);
 
